@@ -1,0 +1,169 @@
+#corpoIndex{
+  background-image: url('../IMG/FUNDO.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  /*imagem no fundo do body index*/
+       
+}
+#corpoComodidades{
+  background-image: url('../FUNDO-3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*imagem no fundo do body COMODIDADE*/
+}
+.container{
+  margin-top: 100px;
+}
+
+.listaMenu li{
+    display: inline-block;
+}
+
+.listaMenu {
+  margin-left: 150px;
+  text-align: center;
+  }
+  
+  .listaMenu a {
+    display: block;
+    padding: 8px;
+    background-color: #333;
+  }
+  
+  .listaMenu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+  }
+ 
+  
+  .listaMenu li a {
+    display: block;
+    color: white;    
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .listaMenu li a:hover {
+    background-color: #111;
+  }
+  
+  .listaMenu li:last-child {
+    border-right: none;
+  }
+  .listaMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  section{
+      float: left;
+      width: 50%;
+ }
+ aside{
+     float: right;
+     width: 50%;
+ }
+ /*div .imgLogo{
+    margin-top:100px;
+
+ }*/
+ div .localizacao{
+     margin-top: 100px;
+     margin-left: 150px;
+ }
+    #conteudo{
+     margin-left: 50px;
+    
+ }
+    #logo img {
+     width: 30%;
+     height: 30%;
+     margin-left: 200px;
+     
+ }
+ 
+ #conteudo-1 {
+  float:left;
+  width:240px;
+  width: 450px;
+  /*É a div da esquerda, da pagina COMODIDADES
+  esta dentro dela a primeira coluna da pagina*/
+}
+#conteudo-2 {
+  float:right;
+  width:720px;
+  right: 500px;
+  padding-right:150px; 
+   /*É a div da direita, da pagina COMODIDADES
+   esta dentro dela a segunda e a terceira coluna*/
+}
+#conteudo-2-1 {
+  float:left;
+  width:400px;
+  /*Éssa div ta dentro da div conteudo-2
+  esta dentro dela a segunda coluna*/
+}
+
+#conteudo-2-2 {
+  float:right;
+  width:330px;
+  padding-right: -10px;
+  margin-left: 200   px;
+  margin-left: -10px;
+  /*Éssa div ta dentro da div conteudo-2
+  esta dentro dela a terceira coluna*/
+}
+ #conteudov{
+   margin-top: 50px;
+   /*essa div afasta o conteúdo do menu*/
+   
+ }
+ footer a{
+  color: honeydew;
+}
+footer{
+  clear: both;
+  background-color:#333 ;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  height: 130px;
+  color: white;
+  text-align: center;
+  padding-bottom: -10px;
+}
+footer a img{
+  width: 20px;
+  height: 20px;
+}
+.roda{
+  text-decoration: none;
+ 
+}
+.roda li{
+  display: inline;
+}
+/*footer{
+  position: absolute;
+  left:5px;
+  right: 5px;
+  bottom: -300px;
+
+}
+/*.Rodappe{
+  position: relative;
+}
+.roda{
+  position:absolute;
+  text-align: center;
+  right: 6100px;
+}*/
+
+
